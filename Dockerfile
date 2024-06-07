@@ -6,7 +6,7 @@ ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
 
 WORKDIR /app
-COPY . /app/
+COPY . /app
 
 RUN apt update -y && apt install awscli -y
 
